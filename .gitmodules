@@ -11,9 +11,11 @@
 	path = IOPS-Location-Engine-UWB
 	url = git@github.com:TrafoToolkit/IOPS-Location-Engine-UWB.git
 	branch = feature/calibration_from_log_file
+	update = merge
 [submodule "IOPS-Logger"]
 	path = IOPS-Logger
 	url = git@github.com:TrafoToolkit/IOPS-Logger.git
+	branch = imu
 [submodule "IOPS-mqtt-internal-interface"]
 	path = IOPS-mqtt-internal-interface
 	url = git@github.com:TrafoToolkit/IOPS-mqtt-internal-interface.git
