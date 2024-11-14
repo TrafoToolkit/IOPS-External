@@ -13,7 +13,8 @@ if __name__ == "__main__":
         "./IOPS-LivePNP/",
     ]
 
-    reinstall = False
+    reinstall = True
+    python = "python3.11"
 
 
     for dirname in list_paths_to_install_venv:
@@ -28,7 +29,7 @@ if __name__ == "__main__":
             if path_venv.exists():
                 subprocess.run(["rm", "-r", "venv"], 
                             cwd=path_dir)
-            subprocess.run(["python", "-m", "venv", "venv"], 
+            subprocess.run([python, "-m", "venv", "venv"], 
                         cwd=path_dir)
             
             subprocess.run(["./venv/bin/python", "-m", "pip", "install", "-r", "requirements.txt"], 

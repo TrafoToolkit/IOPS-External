@@ -1,11 +1,13 @@
 # Installation #
 
+
 ```
 git submodule update --init --recursive
 ```
 
 
 ```
+sudo apt-get install build-essential libgtk-3-dev
 python install.py
 ```
 
