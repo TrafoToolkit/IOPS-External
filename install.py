@@ -33,5 +33,7 @@ if __name__ == "__main__":
             
             subprocess.run(["./venv/bin/python", "-m", "pip", "install", "-r", "requirements.txt"], 
                         cwd=path_dir, stdout=open(os.devnull, 'wb'))
+            subprocess.run(["./venv/bin/python", "-m", "pip", "install", "--no-dependencies", "-e", "."], 
+                        cwd=path_dir, stdout=open(os.devnull, 'wb'))
         else:
             print("-> Exists")
