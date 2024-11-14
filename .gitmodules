@@ -22,3 +22,6 @@
 [submodule "IOPS-data"]
 	path = IOPS-data
 	url = git@github.com:TrafoToolkit/IOPS-data.git
+[submodule "imPRESSing"]
+	path = imPRESSing
+	url = git@github.com:TrafoToolkit/imPRESSing.git
