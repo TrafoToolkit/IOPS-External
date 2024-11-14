@@ -1,1 +1,1 @@
-IOPS-Logger/venv/bin/python IOPS-Logger/src/iops_logger/main.py
+IOPS-Logger/venv/bin/python IOPS-Logger/src/iops_logger/main.py -c IOPS-data/IOPS_CONFIG.ini

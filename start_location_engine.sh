@@ -1,1 +1,1 @@
-IOPS-Location-Engine-UWB/venv/bin/python IOPS-Location-Engine-UWB/src/iops_location_engine_uwb/localization.py "$@"
+IOPS-Location-Engine-UWB/venv/bin/python IOPS-Location-Engine-UWB/src/iops_location_engine_uwb/localization.py "$@" -c IOPS-data/IOPS_CONFIG.ini

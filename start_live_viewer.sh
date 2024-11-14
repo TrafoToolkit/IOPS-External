@@ -1,1 +1,1 @@
-IOPS-Live-Viewer/venv/bin/python IOPS-Live-Viewer/src/iops_live_viewer/open3d_live_viewer.py
+IOPS-Live-Viewer/venv/bin/python IOPS-Live-Viewer/src/iops_live_viewer/open3d_live_viewer.py -c IOPS-data/IOPS_CONFIG.ini

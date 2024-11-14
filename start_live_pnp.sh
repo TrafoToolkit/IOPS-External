@@ -1,1 +1,1 @@
-IOPS-LivePNP/venv/bin/python IOPS-LivePNP/src/iops_live_pnp/iops_solvePNP.py
+IOPS-LivePNP/venv/bin/python IOPS-LivePNP/src/iops_live_pnp/iops_solvePNP.py -c IOPS-data/IOPS_CONFIG.ini
